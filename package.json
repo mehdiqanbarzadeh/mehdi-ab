@@ -1,0 +1,67 @@
+{
+  "name": "mehdi-ab",
+  "version": "1.0.0",
+  "description": "An incremental task management system for Claude Code adapted for Java Spring Boot backend development",
+  "keywords": [
+    "claude-code",
+    "ai-development",
+    "task-management",
+    "spring-boot",
+    "java",
+    "incremental-development",
+    "subagents"
+  ],
+  "author": "Mehdi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehdiq/mehdi-ab.git"
+  },
+  "bin": {
+    "mehdi-ab": "./cli.js"
+  },
+  "main": "cli.js",
+  "files": [
+    "cli.js",
+    ".mehdi-ab/**/*",
+    ".claude/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.3",
+    "@semantic-release/npm": "^12.0.2",
+    "semantic-release": "^24.2.7"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "CHANGELOG.md",
+            "package.json"
+          ],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
+    ]
+  },
+  "private": false,
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

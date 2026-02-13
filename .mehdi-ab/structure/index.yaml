@@ -1,0 +1,46 @@
+# Mehdi AB Method Structure Index
+# This file defines the expected structure for Mehdi AB Method documentation and tasks
+# Adapted for Java Spring Boot backend-only projects
+
+project_structure:
+  # ROOT OF THE PROJECT AND NOT THE DOTFILE
+  docs:
+    architecture:
+      files:
+        - tech-stack.md
+        - entry-points.md
+        - backend-patterns.md
+        - data-patterns.md
+        - security-patterns.md
+        - external-services.md
+        - project-constraints.md
+        - testing-strategy.md
+        - infrastructure.md
+
+    tasks:
+      # Example task structure
+      user-management-api:
+        files:
+          - progress-tracker.md
+          - mission-1-plan-and-implement-entities.md
+          - mission-2-plan-and-implement-services.md
+          - mission-3-plan-and-implement-controllers.md
+          - mission-4-testing.md
+        folders:
+          - sub-agents-outputs/
+      # Additional tasks will follow this pattern:
+      # task-name:
+      #   files:
+      #     - progress-tracker.md
+      #     - mission-1-[description].md
+      #     - mission-2-[description].md
+      #     - ...
+      #   folders:
+      #     - sub-agents-outputs/
+
+# Workflow output destinations
+workflow_outputs:
+  analyze-project: docs/architecture/
+  analyze-backend: docs/architecture/backend-patterns.md
+  create-task: docs/tasks/[task-name]/
+  create-mission: docs/tasks/[task-name]/mission-[number]-[description].md
