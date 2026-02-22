@@ -1,4 +1,4 @@
-# Source files not needed in npm package
+# Source/development files not needed in npm package
 .github/
 docs/
 tasks/
@@ -6,16 +6,14 @@ tasks/
 # Config files
 .gitignore
 .releaserc.json
+.claude/settings.local.json
 
 # Development files
 *.log
 node_modules/
 .DS_Store
+Thumbs.db
 
-# Keep only essential files
-# cli.js
-# .mehdi-ab/
-# .claude/
-# README.md
-# LICENSE
-# package.json
+# IDE
+.vscode/
+.idea/
