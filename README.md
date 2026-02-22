@@ -318,7 +318,7 @@ Contributions are welcome! Here's how to get started:
 ### Development Setup
 
 ```bash
-git clone https://github.com/mehdiq/mehdi-ab.git
+git clone https://github.com/mehdiqanbarzadeh/mehdi-ab.git
 cd mehdi-ab
 npm install
 ```

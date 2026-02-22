@@ -17,12 +17,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mehdiq/mehdi-ab.git"
+    "url": "https://github.com/mehdiqanbarzadeh/mehdi-ab.git"
   },
   "bugs": {
-    "url": "https://github.com/mehdiq/mehdi-ab/issues"
+    "url": "https://github.com/mehdiqanbarzadeh/mehdi-ab/issues"
   },
-  "homepage": "https://github.com/mehdiq/mehdi-ab#readme",
+  "homepage": "https://github.com/mehdiqanbarzadeh/mehdi-ab#readme",
   "bin": {
     "mehdi-ab": "./cli.js"
   },

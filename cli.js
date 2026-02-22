@@ -216,7 +216,7 @@ async function install() {
     rl.close();
     log(`\n  Installation failed: ${error.message}`, COLORS.red);
     log('  Please report this issue at:', COLORS.yellow);
-    log('  https://github.com/mehdiq/mehdi-ab/issues\n', COLORS.yellow);
+    log('  https://github.com/mehdiqanbarzadeh/mehdi-ab/issues\n', COLORS.yellow);
     process.exit(1);
   }
 }
@@ -348,7 +348,7 @@ function showHelp() {
 
   log('  MORE INFO', COLORS.dim);
   log('    Repository:  https://github.com/mehdiq/mehdi-ab');
-  log('    Issues:      https://github.com/mehdiq/mehdi-ab/issues\n');
+  log('    Issues:      https://github.com/mehdiqanbarzadeh/mehdi-ab/issues\n');
 }
 
 function showVersion() {
